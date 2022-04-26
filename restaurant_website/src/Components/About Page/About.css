@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600&display=swap');
+b, h1{
+    font-family: 'Quicksand', sans-serif;
+
+}
+p{
+    font-family: 'Karla', sans-serif;
+}
+.image{
+    position: relative;
+    width: 100%;
+}
+.image img{
+    width: 100%;
+}
+.innerText{
+    margin-inline: 15%;
+    text-align: center;
+   
+}
+.innerText h1{
+    font-size: 3.5em;
+    color: #80461b;
+}
+.innerText p{
+    font-size: 19px;
+    line-height: 25px;
+}
+
+/* story section */
+
+.storySection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+    margin-inline: 10%;
+    text-align: start;
+}
+.storyText{
+    margin-left: 5%;
+}
+.storyText h2{
+    color: #80461b;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+
+.storyText b{
+    color: #80461b;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 6%;
+}
+.storyText p{
+font-size: 18px;
+margin-top: 7%;
+line-height: 28px;
+}
+ 
+.Achievement{
+    margin-top: 8%;
+     margin-bottom: 8%;
+}
+.Achievement ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-inline: 13%;
+    background-color: rgb(10, 20, 20);
+    padding-block: 4%;
+   
+}
+.Achievement li b{
+font-size: 40px;
+font-weight: 600;
+color: #80461b;
+}
+.Achievement li p{
+    font-weight: 500;
+    color: whitesmoke;
+
+}
