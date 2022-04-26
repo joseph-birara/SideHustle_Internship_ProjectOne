@@ -1,18 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600&display=swap');
-b, h1{
+b, h1, h2{
     font-family: 'Quicksand', sans-serif;
 
 }
 p{
     font-family: 'Karla', sans-serif;
 }
-.image{
-    position: relative;
-    width: 100%;
-}
-.image img{
-    width: 100%;
-}
+
+/* about section */
 .innerText{
     margin-inline: 15%;
     text-align: center;
@@ -33,9 +28,15 @@ p{
     display: flex;
     justify-content: space-between;
     margin-top: 8%;
-    margin-inline: 10%;
+    margin-inline: 8%;
     text-align: start;
 }
+.storySection div{
+    width: 50%;
+}
+.picture img{
+    width: 100%;
+} 
 .storyText{
     margin-left: 5%;
 }
@@ -44,7 +45,6 @@ p{
     font-size: 18px;
     margin-bottom: 5%;
 }
-
 .storyText b{
     color: #80461b;
     font-size: 45px;
@@ -52,31 +52,166 @@ p{
     margin-top: 6%;
 }
 .storyText p{
-font-size: 18px;
-margin-top: 7%;
-line-height: 28px;
+    font-size: 18px;
+    margin-top: 7%;
+    line-height: 28px;
 }
  
+/* Achievement section */
 .Achievement{
     margin-top: 8%;
-     margin-bottom: 8%;
+    margin-bottom: 8%;
 }
 .Achievement ul{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     justify-content: space-between;
     padding-inline: 13%;
     background-color: rgb(10, 20, 20);
-    padding-block: 4%;
-   
+    padding-block: 7%;
 }
 .Achievement li b{
-font-size: 40px;
-font-weight: 600;
-color: #80461b;
+    font-size: 40px;
+    font-weight: 600;
+    color: #80461b;
 }
 .Achievement li p{
     font-weight: 500;
     color: whitesmoke;
+}
 
+/* offer section */
+/* card */
+.card{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 5%;
+    flex-wrap: wrap;
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 3%;
+    text-align: center;
+   
+}
+.cardpic{
+    width: 20%;
+    align-self: center;
+}
+.cardpic img{
+    width: 100%;
+}
+
+.card-box p{
+    margin-inline: 4%;
+    margin-block: 2.5%;
+    font-size: 18px;
+}
+.card-box b{
+    margin-inline: 1%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 21px;
+    color: #80461b;
+}
+.oTop{
+    font-size: 45px;
+    color: #80461b;
+}
+
+
+
+
+
+/* media quary */
+
+/* tablet */
+@media (max-width: 768px) {
+    
+    .storySection{
+        flex-direction: column;
+        margin-inline: 5%;
+    }
+    .storySection div{
+        width: 77%;
+    }
+    .card-box p{
+        font-size: 18px;
+    }
+    .card-box b{
+        font-size: 21px;
+    }
+    .cardpic{
+        width: 18%;
+    }
+    .Achievement ul{
+        flex-wrap: wrap;
+    }
+    .Achievement li{
+        padding: 10%;
+    }
+    .Achievement li b{
+        font-size: 45px;
+       
+     }
+     .card{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         padding-inline: 2%;
+     }
+     .card-box{
+         width: 70%;
+         justify-content: center;
+         margin-top: 10%;
+     }
+  
+
+}
+
+/* mobile large */
+@media (max-width: 428px) {
+    .innerText{
+        margin-inline: 8%;
+    }
+    .innerText h1{
+        font-size: 3em;
+    }
+    .innerText p{
+        font-size: 17px;
+        line-height: 24px;
+    }
+    .Achievement li{
+        padding: 8%;
+    }
+    .Achievement ul{
+        padding-inline: 5%;
+    }
+    
+}
+
+/* mobile medium */
+@media (max-width: 428px) {
+    .storySection div{
+        width: 90%;
+    }
+    .storyText b{
+        font-size: 41px;
+    }
+    .storyText p{
+        font-size: 16px;
+    }
+    .oTop{
+    font-size: 40px;
+    margin-top: 15%;
+    }
+    .card-box{
+         width: 90%;
+    }
+    .card{
+    padding-inline: 1%;
+    }
 }
