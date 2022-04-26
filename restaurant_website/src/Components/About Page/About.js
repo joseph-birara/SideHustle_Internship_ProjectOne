@@ -2,6 +2,7 @@ import React from 'react'
 import AboutTop from '../../Images/TopImg.jpeg'
 import './About.css'
 import Achievements from './Achievements'
+import Offer from './Offer'
 import Story from './Story'
 
 function About() {
@@ -19,6 +20,7 @@ function About() {
        </div>
        <Story/>
        <Achievements/>
+       <Offer/>
     
     </div>
     
