@@ -88,6 +88,7 @@ p{
     justify-content: space-between;
     padding-inline: 5%;
     flex-wrap: wrap;
+    padding-bottom: 8%;
 }
 .card-box{
     display: flex;
