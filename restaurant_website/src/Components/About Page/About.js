@@ -8,8 +8,6 @@ import Story from './Story'
 function About() {
   return (
     <div className='About-top'>
-        
-       <div className='image'>
       
        <div className='innerText'>
        <h1>About Us</h1>
@@ -17,7 +15,7 @@ function About() {
            soon i will.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
        </p>
        </div> 
-       </div>
+    
        <Story/>
        <Achievements/>
        <Offer/>
