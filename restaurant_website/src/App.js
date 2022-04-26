@@ -6,18 +6,24 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Footer from "./Components/Footer/Footer"
+
+
 
 function App() {
   return (
     <div className="App">
+
       <BrowserRouter>
     <Routes>
     
-          <Route path="/about" element={<About/>} />
-         
+          <Route path="/about" element={<About/>} 
       
     </Routes>
+     <Footer/>
   </BrowserRouter>
+
+         
     </div>
   );
 }

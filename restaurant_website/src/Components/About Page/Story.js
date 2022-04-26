@@ -6,7 +6,7 @@ function Story() {
   return (
     <div className='storySection'>
         <div className='picture'>
-        <img src={StoryImg}></img>
+        <img src={StoryImg} alt=''></img>
         </div>
         <div className='storyText'>
             <h2>OUR STORY</h2>
