@@ -6,9 +6,9 @@ import Information from './Information'
 
 export default function () {
   return (
-      <>
+      <div className='mainDiv'>
       <Information />
       <Form />
-    </>
+    </div>
   )
 }
