@@ -72,6 +72,7 @@ p{
     border-style: solid;
     text-align: left;
     border-color: #80461b;
+    margin-bottom: 15px;
 }
 .contact input:hover,
 .contact input:active{
@@ -80,4 +81,16 @@ p{
 .contact textarea:hover,
 .contact textarea:active{
     border-color: #a75b21;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    background-color: #80461b;
+    border-radius: 20px;
+ 
+}
+a i{
+
+    margin-right: 5px;
 }

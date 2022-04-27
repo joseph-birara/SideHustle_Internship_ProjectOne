@@ -15,6 +15,7 @@ export default function Form() {
             <input type="text" id="phone" name="phone" placeholder='Your phone' /><br />
             <label for="message">Message:</label><br />
             <textarea type="text" id="message" name="message" placeholder='Your Message' required />
+            <a href='#'><i class="fa-solid fa-paper-plane"></i>Send</a>
      </div>
     </>
   )
