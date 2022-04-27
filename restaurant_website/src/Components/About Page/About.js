@@ -7,7 +7,7 @@ import Story from './Story'
 
 function About() {
   return (
-    <div className='About-top'>
+    <div className='About-top mainDiv'>
       
        <div className='innerText'>
        <h1>About Us</h1>

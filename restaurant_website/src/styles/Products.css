@@ -1,0 +1,15 @@
+.mainDiv{
+    margin-top: 70px;
+}
+
+.head{
+    text-align: center;
+    color: #80461b;
+    margin-top: 30px;
+}
+
+.cardImg{
+    width: 230px;
+    height: 230px;
+    margin-left: 40px;
+}

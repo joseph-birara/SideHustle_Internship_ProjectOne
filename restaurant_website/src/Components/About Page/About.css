@@ -6,7 +6,9 @@ b, h1, h2{
 p{
     font-family: 'Karla', sans-serif;
 }
-
+.mainDiv{
+    margin-top: 70px !important;
+}
 /* about section */
 .innerText{
     margin-inline: 15%;
@@ -80,6 +82,7 @@ p{
     font-weight: 500;
     color: whitesmoke;
 }
+
 
 /* offer section */
 /* card */

@@ -3,15 +3,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* color: #80461b; */
+  
 }
 b, h1, h2{
     font-family: 'Quicksand', sans-serif;
-
+    color: #80461b;
 }
 p{
-    font-family: 'Karla', sans-serif;
+    font-family:  sans-serif;
+    color: #80461b;
+}
+.IconsDesign{
+    color: #80461b;   
+}
+.header{
+    color: white;
+    font-size: 10px;
 }
 
+.mainDiv{
+    margin-top: 70px !important;
+}
 /* about section */
 .image-text{
     position: absolute;
