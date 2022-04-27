@@ -13,7 +13,7 @@ const Dishes=() =>{
             </Row>
             <Row>
                 <Col md={{span: 3, offset: 1}} >
-                <img src="./cheff.jpg" className="img"></img>
+                <img src="./cheff.jpg" className="img" alt="chef"></img>
                 </Col>
                 <Col md={{span: 4, offset: 1}}>
                     <h4>We provide best quality food to our customers. They always give us 

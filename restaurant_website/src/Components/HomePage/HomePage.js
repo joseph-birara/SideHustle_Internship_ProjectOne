@@ -5,7 +5,7 @@ function HomePage() {
       <>
     <div>
         <div > 
-     <img   src="./home.jpg" className="pic" />
+     <img   src="./home.jpg" className="pic" alt="home" />
        </div>
        <div className="contents">
             <h1 className="heading">Food Presso</h1>
